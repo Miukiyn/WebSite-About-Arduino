@@ -1,0 +1,397 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background: #ffffff;
+}
+
+main {
+    background: #ffffff;
+}
+.scratchleopardjs{
+  position: fixed;
+  padding-right: 70px;
+  
+  
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h6 {
+    color: black;
+}
+
+h5 {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+a {
+    font-size: large;
+    margin-block: -5px;
+}
+
+p {
+    color: black;
+}
+ul{
+  margin-left: 50px;
+}
+
+li {
+    font-size: larger;
+  margin-left: 10px;
+  
+}
+
+body {
+    background: transparent !important;
+}
+
+.container-fluid {
+    background: #0c0c0c;
+}
+
+.navbar {
+    margin-bottom: 1rem;
+}
+
+.nav-item .nav-link {
+    font-size: 1.2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a:hover {
+    font-weight: 900px;
+    opacity: 1;
+}
+
+.nav-item .nav-link i {
+    position: relative;
+    color: white;
+}
+
+.navbar .d-flex button i {
+    color: #000000
+}
+
+.navbar .d-flex button {
+    background-color: white
+}
+
+.d-flex .form-control:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
+} 
+
+.d-flex button:hover {
+    opacity: 0.9;
+}
+
+.dropdown a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+.dropdown ul {
+    background-color: white;
+    color: white;
+    background: white;
+}
+
+.dropdown a:hover {
+    background-color: #ffffff;
+}
+
+.dropdown .btn-secondary {
+    background-color: #ffffff;
+}
+
+.dropdown .btn-secondary:hover {
+    background-color: #ffffff;
+}
+
+.dropdown .btn-secondary:focus {
+    background-color: #ffffff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+button[class="btn btn-secondary btn-sm"] {
+    background-color: #000000;
+}
+
+button[class="btn btn-secondary btn-sm"]:hover {
+    background-color: #ffffff;
+}
+
+button[class="btn btn-secondary btn-sm"]:focus {
+    background-color: #ffffff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+p.card-text {
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    background: #ffffff;
+}
+
+.profile-header-container img {
+    border-radius: 50%;
+}
+
+img.navbar-brand {
+    width: 150px;
+    height: 130px;
+    margin-right: 25px;
+}
+
+.container {
+    text-align: justify;
+}
+
+.carousel-item {
+    color: black;
+    font-size: 1rem;
+}
+
+.carousel-item p {
+    margin-right: 2.3rem;
+}
+
+.carousel-item b {
+    font-weight: bolder;
+}
+
+.carousel-item h4 {
+    color: #000000;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.carousel-indicators {
+    top: 90%;
+    margin-top: 1rem;
+}
+
+.carousel-indicators button {
+    filter: invert();
+    top: 90%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert();
+}
+
+.container-info {
+    margin-right: 18%;
+    margin-bottom: 10%;
+}
+
+.carousel-control-prev {
+    margin-left: -6.5%;
+}
+
+.text-center {
+    background-color: #ffffff;
+}
+
+hr.rounded {
+    margin-top: 2rem;
+    border: 0;
+    border-top: 8px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-header-container {
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 0;
+}
+
+.profile-header-img {
+    padding: 54px;
+}
+
+img.img-circle {
+    width: 100%;
+    height: 100%;
+}
+
+.about h3 i {
+    margin-left: 1rem;
+    font-size: x-large;
+}
+
+.editorial-info .redacao h5, .editorial-info .redacao p {
+    display: inline;
+}
+
+.editorial-info .pesquisa h5, .editorial-info .pesquisa p {
+    display: inline;
+}
+
+.editorial-info .gerente h5, .editorial-info .gerente p {
+    display: inline;
+}
+
+.editorial-info h5 {
+    font-weight: bolder;
+    color: #000000;
+}
+
+.editorial-info p {
+    color: black;
+}
+
+.editorial-info i {
+    color: black;
+}
+
+
+.fa {
+    color: white;
+    width: 50px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.footertext {
+    margin-top: 15px;
+    align-self: center;
+    color: black;
+}
+.starlogo{
+  width: 100%;
+  height: 720px;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-item {
+        color: black;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .carousel-item img {
+        width: 80%;
+        padding-left: 20%;
+        margin-left: 5%;
+    }
+
+    .container-info {
+        margin-top: 10%;
+        padding-left: 10%;
+        margin-right: 18%;
+        margin-bottom: 10%;
+    }
+
+    .user h4 {
+        margin-top: 1rem;
+        font-size: large;
+    }
+
+    .profile-header-container img.img-circle {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .noticias .img {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .carousel-item img {
+        width: 80%;
+        padding-left: 20%;
+        margin-left: 5%;
+    }
+
+    .container-info {
+        margin-top: 10%;
+        padding-left: 10%;
+        margin-right: 18%;
+        margin-bottom: 10%;
+    }
+
+    .card {
+        width: fit-content;
+        flex-direction: column;
+    }
+
+    .card-body {
+        height: fit-content;
+    }
+
+    p.card-text {
+        color: black;
+        align-items: center;
+        text-align: center;
+        font-size: small;
+    }
+
+    .user h4 {
+        margin-top: 2rem;
+        font-size: small;
+    }
+
+    .user p {
+        font-size: small;
+    }
+
+    .profile-header-container img.img-circle {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .noticias .img {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .noticias .info h5, p {
+        font-size: small;
+    }
+
+    .about p {
+        font-size: small;
+    }
+
+    .about h3 i {
+        font-size: 1rem;
+    }
+}
